@@ -6,27 +6,44 @@
   <body>
 
     <h2 id="heading">DOM Manipulation Exercises</h3>
-    <h4>Task 2 a</h4>
-    <div id="task2a"></div>
+      <h4>Task 2 a</h4>
+        <div id="task2a"></div>
+    <!--utton onclick="addText2()">Add Hello Word</button>-->
+            <button id="textBtn2a">Add Hello word</button>
 
-    <h4>Task 2 b</h4>
+                  <h4>Task 2 b</h4>
+                      <button onclick="changBGcolor(event)">Red</button>
+                        <button onclick="changBGcolor(event)">Green</button>
 
 
-    <h4>Task 2 c</h4>
+                      <h4>Task 2 c</h4>
+    
+            <button onclick="redirectToGoogle()">Google</button>
 
 
     <!-- ***** -->
     <h3>With jQuery</h3>
     <h4>Task 4 a</h4>
+    
     <div id="task4a"></div>
-
+      <button id="addText4">Add Text</button>
+      
     <h4>Task 4 b</h4>
-
+      
+              <button onclick="changBG(event)">RED</button>
+             <button onclick="changBG(event)">GREEN</button>
 
     <h4>Task 4 c</h4>
+    
+    <input id="num1" type="number" placeholder="number 1" >
+        <input id="num2" type="number" placeholder="number 2" >
+        <button id="sum">ADD</button>
+        <p>The Sum is   <span id="answer"></span></p>
 
 
     <!-- Insert your JavaScript file -->
+    <script type="text/javascript" src="jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="script.js"></script>
 
   </body>
 </html>
